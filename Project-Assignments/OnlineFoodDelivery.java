@@ -13,6 +13,7 @@ class FoodItem {
         this.itemName = itemName;
         this.price = price;
         this.quantity = quantity; 
+        
         //this keyword ka use karte hai to refer to the current object, isliye hum this.itemId, this.itemName, this.price, this.quantity use karte hai to refer to the instance variables of the class
         //this ka use hum bas initial karne ke liye karte hai, baad me hum direct itemId, itemName, price, quantity use kar sakte hai without this keyword
     }
@@ -54,7 +55,7 @@ public class OnlineFoodDelivery{
     FoodItem f2 = new FoodItem(2, "Paneer Samosa", 60.0, 3);
     FoodItem f3 = new FoodItem(3, "Aloo Samosa", 40.0, 4);
     FoodItem f4 = new FoodItem(4, "Veg Samosa", 45.0, 5);
-    FoodItem f5 = new FoodItem(5, "Chicken Samosa", 70.0, 1);
+    FoodItem f5 = new FoodItem(5, "UP Samosa", 70.0, 1);
 
     //yahan pe hamara customer hai, to hum ek class bana rahe jiska naam hai Customer, jisme hum customerId, customerName aur mobileNumber ko define karenge, aur ek method banayenge displayCustomerDetails() jo customer ke details ko print karega.
     Customer c1 = new Customer(1, "Yash", "1234567890");
